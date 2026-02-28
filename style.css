@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    padding-top: 100px;
+    text-align: center;
+    background: linear-gradient(#4e54c8, #8f94fb);
+    color: white;
+}
